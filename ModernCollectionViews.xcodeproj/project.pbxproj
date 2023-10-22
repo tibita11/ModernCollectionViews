@@ -17,6 +17,7 @@
 		A5E0FB302AE3CEC000A00B14 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E0FB2F2AE3CEC000A00B14 /* TextCell.swift */; };
 		A5E0FB332AE3CF1A00A00B14 /* PinLayout in Frameworks */ = {isa = PBXBuildFile; productRef = A5E0FB322AE3CF1A00A00B14 /* PinLayout */; };
 		A5E0FB352AE3D9F700A00B14 /* InsetItemsGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E0FB342AE3D9F700A00B14 /* InsetItemsGridViewController.swift */; };
+		A5E0FB372AE4ED8100A00B14 /* TwoColumnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E0FB362AE4ED8100A00B14 /* TwoColumnViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		A5E0FB282AE3B81E00A00B14 /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
 		A5E0FB2F2AE3CEC000A00B14 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
 		A5E0FB342AE3D9F700A00B14 /* InsetItemsGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetItemsGridViewController.swift; sourceTree = "<group>"; };
+		A5E0FB362AE4ED8100A00B14 /* TwoColumnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoColumnViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			children = (
 				A5E0FB282AE3B81E00A00B14 /* GridViewController.swift */,
 				A5E0FB342AE3D9F700A00B14 /* InsetItemsGridViewController.swift */,
+				A5E0FB362AE4ED8100A00B14 /* TwoColumnViewController.swift */,
 			);
 			path = "Basics View Controllers";
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				A5E0FB192ADD841300A00B14 /* OutlineViewController.swift in Sources */,
 				A5E0FB152ADD841300A00B14 /* AppDelegate.swift in Sources */,
 				A5E0FB172ADD841300A00B14 /* SceneDelegate.swift in Sources */,
+				A5E0FB372AE4ED8100A00B14 /* TwoColumnViewController.swift in Sources */,
 				A5E0FB352AE3D9F700A00B14 /* InsetItemsGridViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
