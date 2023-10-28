@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5513EAB2AEC823C000BAD05 /* MountainsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5513EAA2AEC823C000BAD05 /* MountainsViewController.swift */; };
+		A5513EAE2AED3D0B000BAD05 /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5513EAD2AED3D0B000BAD05 /* LabelCell.swift */; };
+		A5513EB02AED3E47000BAD05 /* MountainsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5513EAF2AED3E47000BAD05 /* MountainsController.swift */; };
+		A5513EB22AED3FAC000BAD05 /* MountainsRawData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5513EB12AED3FAC000BAD05 /* MountainsRawData.swift */; };
 		A5E0FB152ADD841300A00B14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E0FB142ADD841300A00B14 /* AppDelegate.swift */; };
 		A5E0FB172ADD841300A00B14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E0FB162ADD841300A00B14 /* SceneDelegate.swift */; };
 		A5E0FB192ADD841300A00B14 /* OutlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E0FB182ADD841300A00B14 /* OutlineViewController.swift */; };
@@ -20,9 +24,14 @@
 		A5E0FB372AE4ED8100A00B14 /* TwoColumnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E0FB362AE4ED8100A00B14 /* TwoColumnViewController.swift */; };
 		A5E0FB392AE4F89C00A00B14 /* DistinctSectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E0FB382AE4F89C00A00B14 /* DistinctSectionsViewController.swift */; };
 		A5E0FB3B2AE5044100A00B14 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E0FB3A2AE5044100A00B14 /* ListCell.swift */; };
+		A5E0FB3D2AE520B500A00B14 /* SectionHeadersFootersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E0FB3C2AE520B500A00B14 /* SectionHeadersFootersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5513EAA2AEC823C000BAD05 /* MountainsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainsViewController.swift; sourceTree = "<group>"; };
+		A5513EAD2AED3D0B000BAD05 /* LabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCell.swift; sourceTree = "<group>"; };
+		A5513EAF2AED3E47000BAD05 /* MountainsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainsController.swift; sourceTree = "<group>"; };
+		A5513EB12AED3FAC000BAD05 /* MountainsRawData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainsRawData.swift; sourceTree = "<group>"; };
 		A5E0FB112ADD841300A00B14 /* ModernCollectionViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModernCollectionViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5E0FB142ADD841300A00B14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5E0FB162ADD841300A00B14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +46,7 @@
 		A5E0FB362AE4ED8100A00B14 /* TwoColumnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoColumnViewController.swift; sourceTree = "<group>"; };
 		A5E0FB382AE4F89C00A00B14 /* DistinctSectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistinctSectionsViewController.swift; sourceTree = "<group>"; };
 		A5E0FB3A2AE5044100A00B14 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		A5E0FB3C2AE520B500A00B14 /* SectionHeadersFootersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeadersFootersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5513EA92AEC8221000BAD05 /* Diffable */ = {
+			isa = PBXGroup;
+			children = (
+				A5513EAC2AED3CE9000BAD05 /* Cells And Supplementary Views */,
+				A5513EAA2AEC823C000BAD05 /* MountainsViewController.swift */,
+				A5513EAF2AED3E47000BAD05 /* MountainsController.swift */,
+				A5513EB12AED3FAC000BAD05 /* MountainsRawData.swift */,
+			);
+			path = Diffable;
+			sourceTree = "<group>";
+		};
+		A5513EAC2AED3CE9000BAD05 /* Cells And Supplementary Views */ = {
+			isa = PBXGroup;
+			children = (
+				A5513EAD2AED3D0B000BAD05 /* LabelCell.swift */,
+			);
+			path = "Cells And Supplementary Views";
+			sourceTree = "<group>";
+		};
 		A5E0FB082ADD841300A00B14 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +99,7 @@
 		A5E0FB132ADD841300A00B14 /* ModernCollectionViews */ = {
 			isa = PBXGroup;
 			children = (
+				A5513EA92AEC8221000BAD05 /* Diffable */,
 				A5E0FB2C2AE3CE4900A00B14 /* Compositional Layout */,
 				A5E0FB142ADD841300A00B14 /* AppDelegate.swift */,
 				A5E0FB162ADD841300A00B14 /* SceneDelegate.swift */,
@@ -98,6 +128,7 @@
 				A5E0FB342AE3D9F700A00B14 /* InsetItemsGridViewController.swift */,
 				A5E0FB362AE4ED8100A00B14 /* TwoColumnViewController.swift */,
 				A5E0FB382AE4F89C00A00B14 /* DistinctSectionsViewController.swift */,
+				A5E0FB3C2AE520B500A00B14 /* SectionHeadersFootersViewController.swift */,
 			);
 			path = "Basics View Controllers";
 			sourceTree = "<group>";
@@ -189,13 +220,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5E0FB392AE4F89C00A00B14 /* DistinctSectionsViewController.swift in Sources */,
+				A5513EB22AED3FAC000BAD05 /* MountainsRawData.swift in Sources */,
 				A5E0FB302AE3CEC000A00B14 /* TextCell.swift in Sources */,
+				A5E0FB3D2AE520B500A00B14 /* SectionHeadersFootersViewController.swift in Sources */,
 				A5E0FB292AE3B81E00A00B14 /* GridViewController.swift in Sources */,
 				A5E0FB192ADD841300A00B14 /* OutlineViewController.swift in Sources */,
+				A5513EB02AED3E47000BAD05 /* MountainsController.swift in Sources */,
 				A5E0FB152ADD841300A00B14 /* AppDelegate.swift in Sources */,
 				A5E0FB172ADD841300A00B14 /* SceneDelegate.swift in Sources */,
 				A5E0FB3B2AE5044100A00B14 /* ListCell.swift in Sources */,
 				A5E0FB372AE4ED8100A00B14 /* TwoColumnViewController.swift in Sources */,
+				A5513EAB2AEC823C000BAD05 /* MountainsViewController.swift in Sources */,
+				A5513EAE2AED3D0B000BAD05 /* LabelCell.swift in Sources */,
 				A5E0FB352AE3D9F700A00B14 /* InsetItemsGridViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
